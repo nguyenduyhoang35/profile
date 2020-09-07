@@ -1,0 +1,26 @@
+.window__skills {
+  display: initial;
+
+  > .col:nth-child(2) > .title > big {
+    color: #000 !important;
+  }
+
+  @for $index from 1 through 3 {
+    > .col:nth-child(#{$index}) {
+      opacity: 0;
+      transform: translateY(50px);
+      animation: #{$index}s forwards 1s reset;
+    }
+  }
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.skills span {
+  color: #fff !important;
+}

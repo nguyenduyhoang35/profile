@@ -1,0 +1,66 @@
+@import "../vars";
+
+.wrapper {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 2vmax;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  &.minimized {
+    grid-template-columns: auto;
+    gap: 1vmax;
+    transform: initial;
+    top: 1vmax;
+    left: 1vmax;
+    transition: top 1s;
+
+    > .link {
+      border-radius: 4px;
+      -webkit-box-shadow: 0 35px 20px #00000030;
+      -moz-box-shadow: 0 35px 20px #00000030;
+      box-shadow: 0 35px 20px #00000030;
+      width: 5vmax;
+      height: 5vmax;
+      font-size: 1vmax;
+    }
+  }
+}
+
+.link {
+  background: #00000070;
+  -webkit-box-shadow: 0 35px 20px #00000030;
+  -moz-box-shadow: 0 35px 20px #00000030;
+  box-shadow: 0 35px 20px #00000030;
+  border-radius: 4px;
+  width: 15vmax;
+  height: 15vmax;
+  font-size: 2vmax;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  overflow: hidden;
+
+  &.active,
+  &:hover {
+    > span {
+      transform: translateY(-100%);
+    }
+  }
+
+  > span {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s transform;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:first-child {
+      background: no-repeat center;
+      background-size: 80%;
+    }
+  }
+}
