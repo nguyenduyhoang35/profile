@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts build",
+    "build": "curl 'https://raw.githubusercontent.com/creationix/nvm/master/install.sh' | bash; nvm install --lts nvm use --lts react-scripts build",
     "postbuild": "react-snapshot",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
