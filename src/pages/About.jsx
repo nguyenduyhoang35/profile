@@ -19,7 +19,7 @@ function About() {
         <div className="button-group">
           <IconContext.Provider value={{ className: "react-icons" }}>
             <TabLink className="button" href="#">
-              <MdDescription /> My Resume
+              <MdDescription />
             </TabLink>
             <TabLink
               className="button"

@@ -4,7 +4,7 @@ export default {
   and design. I enjoy developing visual-related stuffs, reading random
   tech blogs and getting inspired by the awesomeness.`,
   facts: [
-    "My full name is Hoàng Nguyen Duy, but I prefer just $1.",
+    "My full name is Hoang Nguyen Duy, but I prefer just $1.",
     "I was born on a wonderful day in 1997.",
     "I am a citizen of Vietnam, living in its largest city.",
     "One word to describe my personality: Introversion.",
@@ -19,7 +19,7 @@ export default {
     Fire Emblem. And I have been serving its $2 as an admin for several years.`,
   ],
   links: {
-    $1: ["Hoàng"],
+    $1: ["Hoang"],
     $2: ["biggest knowledge base", "https://fireemblem.fandom.com/"],
   },
 };

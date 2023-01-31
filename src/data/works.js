@@ -4,7 +4,7 @@ export default {
   Careers: [
     {
       title: "Bosch",
-      logo: Logo.Bosch,
+      logo: Logo.Sskpi,
       timeline: "Aug 2019 - Present",
       description: `A multinational technology company based in Germany,
         whose major business sector is mobility`,
@@ -33,7 +33,7 @@ export default {
     },
     {
       title: "Cathay Life",
-      logo: Logo.Cathay,
+      logo: Logo.Logivan,
       timeline: "Feb 2017 - Apr 2017",
       description: "A Taiwanese life insurance company",
       remark: `This is the first company I joined after my graduation.
