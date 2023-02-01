@@ -3,7 +3,7 @@ import { Logo, Icon } from "../assets";
 export default {
   Careers: [
     {
-      title: "Bosch",
+      title: "Sskpi",
       logo: Logo.Sskpi,
       timeline: "Aug 2019 - Present",
       description: `A multinational technology company based in Germany,
@@ -32,7 +32,7 @@ export default {
       },
     },
     {
-      title: "Cathay Life",
+      title: "Logivan",
       logo: Logo.Logivan,
       timeline: "Feb 2017 - Apr 2017",
       description: "A Taiwanese life insurance company",
