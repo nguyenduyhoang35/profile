@@ -9,9 +9,9 @@ export default [
   {
     icon: FaGraduationCap,
     time: "2013 - 2016",
-    title: "Information Technology (.NET Software Engineering)",
-    place: "NIIT Hoa Sen",
-    description: "Professional Diploma",
+    title: "Information Technology (Front-end Developers)",
+    place: "SPHINX",
+    description: "Inter",
   },
   {
     icon: FaCertificate,
