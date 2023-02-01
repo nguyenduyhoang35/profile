@@ -26,7 +26,7 @@ export const Social = {
 };
 
 export const Logo = {
-  Sskpi : require("./assets/sskpi-image.svg"),
+  Sskpi : require("./assets/sskpi-image.png"),
   Logivan: require("./assets/logivan-image.png"),
   Fandom: require("./assets/logo-fandom.webp"),
   FandomDev: require("./assets/logo-fandom-dev.webp"),
