@@ -28,6 +28,8 @@ export const Social = {
 export const Logo = {
   Sskpi : require("./assets/sskpi-image.png"),
   Logivan: require("./assets/logivan-image.png"),
+  Sphinx: require("./assets/sphinx.png"),
+  SoTaTek: require("./assets/SoTaTek.png"),
   Fandom: require("./assets/logo-fandom.webp"),
   FandomDev: require("./assets/logo-fandom-dev.webp"),
   Win7: require("./assets/logo-win7.webp"),

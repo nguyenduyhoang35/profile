@@ -1,11 +1,26 @@
+/* eslint-disable import/no-anonymous-default-export */
 import { Logo, Icon } from "../assets";
 
 export default {
   Careers: [
     {
+      title: "Sphinx Software",
+      logo: Logo.Sphinx,
+      timeline: "May 2017 - Sep 2018",
+      description: "A Taiwanese life insurance company",
+      remark: `This is the first company I joined after my graduation.
+        I was able to experience a professional working environment and learned from my seniors.`,
+      activities: [
+        "Develop software utilities to support internal users",
+        "Engage in a robust, long-standing system",
+        "Tools used: WebSphere, ClearCase",
+      ],
+      techs: "HTML, Bootstrap, JS, Java, JSP, XML, DB2 JDBC",
+    },
+    {
       title: "Sskpi",
       logo: Logo.Sskpi,
-      timeline: "Aug 2019 - Present",
+      timeline: "Jun 2018 - Jun 2020",
       description: `A multinational technology company based in Germany,
         whose major business sector is mobility`,
       remark: `A company I have been working for after having finished my service for the country.
@@ -34,7 +49,21 @@ export default {
     {
       title: "Logivan",
       logo: Logo.Logivan,
-      timeline: "Feb 2017 - Apr 2017",
+      timeline: "Aug 2020 - Dec 2021",
+      description: "A Taiwanese life insurance company",
+      remark: `This is the first company I joined after my graduation.
+        I was able to experience a professional working environment and learned from my seniors.`,
+      activities: [
+        "Develop software utilities to support internal users",
+        "Engage in a robust, long-standing system",
+        "Tools used: WebSphere, ClearCase",
+      ],
+      techs: "HTML, Bootstrap, JS, Java, JSP, XML, DB2 JDBC",
+    },
+    {
+      title: "SoTaTek",
+      logo: Logo.SoTaTek,
+      timeline: "Dec 2021 - Present",
       description: "A Taiwanese life insurance company",
       remark: `This is the first company I joined after my graduation.
         I was able to experience a professional working environment and learned from my seniors.`,

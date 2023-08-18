@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 export default {
   headline: "A software developer, front-end enthusiast.",
   intro: `I'm a full-time software developer who has a one-sided love for visual

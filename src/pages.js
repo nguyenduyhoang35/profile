@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import About from "./pages/About";
 import Work from "./pages/Work";
 import Skills from "./pages/Skills";
