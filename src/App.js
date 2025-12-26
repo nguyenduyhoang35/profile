@@ -12,7 +12,7 @@ const mouseOver = ({ target }) => (target.src = Social[target.alt][1]);
 const mouseOut = ({ target }) => (target.src = Social[target.alt][0]);
 const SocialLinks = {
   Github: "https://github.com/nguyenduyhoang35",
-  Linkedin: "https://www.linkedin.com",
+  Linkedin: "https://www.linkedin.com/in/hoang-nguyen-848b52206/",
   Fandom: "https://dev.fandom.com/",
 };
 const storeKey = {

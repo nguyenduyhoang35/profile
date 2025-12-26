@@ -4,190 +4,152 @@ import { Logo, Icon } from "../assets";
 export default {
   Careers: [
     {
-      title: "Sphinx Software",
-      logo: Logo.Sphinx,
-      timeline: "May 2017 - Sep 2018",
-      description: "A Taiwanese life insurance company",
-      remark: `This is the first company I joined after my graduation.
-        I was able to experience a professional working environment and learned from my seniors.`,
+      title: "Fetch",
+      logo: Logo.Fetch,
+      timeline: "Jun 2024 - Present",
+      description: "Frontend Developer - Blockchain & Web3 Development",
+      remark: `Currently working on cutting-edge Web3 and blockchain projects including DeFi platforms,
+        crypto wallets, and NFT marketplaces. Building high-performance UIs with modern technologies.`,
       activities: [
-        "Develop software utilities to support internal users",
-        "Engage in a robust, long-standing system",
-        "Tools used: WebSphere, ClearCase",
+        "LaunchPunks (BRC-20 Launchpad): Built animated UI with React/Next.js, Framer Motion & GSAP",
+        "StableFlow (DeFi Platform): Developed interfaces for stablecoin swaps & staking",
+        "W Wallet: Built Telegram WebApp wallet (40k+ users) with multi-chain support",
+        "Laguna Network: Developed crypto cashback dashboard with NFT checkout via Stripe",
+        "WizzTutor (EdTech): Built smart tutoring platform with AI-driven recommendations",
+        "React Native mobile development with Firebase integration",
       ],
-      techs: "HTML, Bootstrap, JS, Java, JSP, XML, DB2 JDBC",
-    },
-    {
-      title: "Sskpi",
-      logo: Logo.Sskpi,
-      timeline: "Jun 2018 - Jun 2020",
-      description: `A multinational technology company based in Germany,
-        whose major business sector is mobility`,
-      remark: `A company I have been working for after having finished my service for the country.
-        I was able to learn a lot about processes, new techs and best practices, and apply to my daily work.
-        And prominently, I could utilize my English in daily communications and formal meetings.`,
-      activities: [
-        "Develop tools on top of the $1 to support an internal business unit",
-        "Follow the Scrum framework's principles to engage in the software development process",
-        "Define, apply and continously improve the software development process to adapt and overcome challenges",
-        "Actively review and improve individual skills competency over the time",
-        "Tools used: Visual Studio Code, IBM ELM tools, Balsamiq Mockups, MS Office, Skype",
-      ],
-      techs: "HTML, CSS, Sass, JS, jQuery, ReactJS, $2, $3, $4, $5, $6",
-      links: {
-        $1: ["IBM ELM toolsuite", "https://jazz.net/products/elm/"],
-        $2: ["DXL", "https://en.wikipedia.org/wiki/DOORS_Extension_Language"],
-        $3: ["OSLC", "https://open-services.net/"],
-        $4: ["OpenSocial", "https://en.wikipedia.org/wiki/OpenSocial"],
-        $5: ["ag-Grid", "https://www.ag-grid.com/"],
-        $6: [
-          "vis-network",
-          "https://visjs.github.io/vis-network/docs/network/",
-        ],
-      },
-    },
-    {
-      title: "Logivan",
-      logo: Logo.Logivan,
-      timeline: "Aug 2020 - Dec 2021",
-      description: "A Taiwanese life insurance company",
-      remark: `This is the first company I joined after my graduation.
-        I was able to experience a professional working environment and learned from my seniors.`,
-      activities: [
-        "Develop software utilities to support internal users",
-        "Engage in a robust, long-standing system",
-        "Tools used: WebSphere, ClearCase",
-      ],
-      techs: "HTML, Bootstrap, JS, Java, JSP, XML, DB2 JDBC",
+      techs: "React, Next.js, TypeScript, Web3.js, Ethers.js, Framer Motion, GSAP, React Native, Firebase",
     },
     {
       title: "SoTaTek",
       logo: Logo.SoTaTek,
-      timeline: "Dec 2021 - Present",
-      description: "A Taiwanese life insurance company",
-      remark: `This is the first company I joined after my graduation.
-        I was able to experience a professional working environment and learned from my seniors.`,
+      timeline: "Jan 2022 - Apr 2024",
+      description: "Frontend Developer - Blockchain, GameFi & Web3 Product Development",
+      remark: `Contributed to multiple Web3 projects including NFT marketplace, GameFi platforms,
+        crypto wallets, and launchpads. Built core features like token minting, wallet integration, and staking.`,
       activities: [
-        "Develop software utilities to support internal users",
-        "Engage in a robust, long-standing system",
-        "Tools used: WebSphere, ClearCase",
+        "Worked on LooksRare, Moongate, Seedbox, 0xBlock, and Webuynft",
+        "Built token minting, wallet integration, staking features using React, Next.js, TypeScript",
+        "DriftZone: Real-time Multiplayer Car Battle Game with leaderboard system",
+        "BetterCast: Event Management System with Stripe integration",
+        "Mina Protocol Tools: Wallet Selector, MinaPortal, MetaMask Snap",
+        "Flostream: Decentralized Web3 Storage Protocol",
       ],
-      techs: "HTML, Bootstrap, JS, Java, JSP, XML, DB2 JDBC",
+      techs: "React, Next.js, TypeScript, Web3.js, Ethers.js, ReScript, ElectronJS, Stripe",
+    },
+    {
+      title: "Logivan",
+      logo: Logo.Logivan,
+      timeline: "Aug 2020 - Dec 2022",
+      description: "Frontend Developer - Logistics & Fleet Management Platform",
+      remark: `Developed comprehensive logistics management tools connecting truck drivers with shippers.
+        Built real-time tracking systems and data analytics dashboards.`,
+      activities: [
+        "Ops Tool System: Fleet management, Driver, Documents, Price, Voucher management",
+        "Shipper Web App: Connecting truck drivers with shippers using Google Maps",
+        "Real-time chat with Firebase, direct contact with drivers and businesses",
+        "Dashboard with Statistical Insight and Data Analysis for BOD",
+        "Driver Performance System with Trip-based Rating and Trust Score",
+        "Logi coin system development for driver rewards",
+      ],
+      techs: "React, Redux, Firebase, Google Maps API, WebSocket, Chart.js",
+    },
+    {
+      title: "SSKPI",
+      logo: Logo.Sskpi,
+      timeline: "Jun 2019 - Jul 2020",
+      description: "Frontend Developer - Performance & Goal Management Platform",
+      remark: `Long-term development of internal HR & productivity suite with full ownership of product features.
+        Built modules for surveys, KPIs, task tracking, OKRs, and performance reports.`,
+      activities: [
+        "SSKPI: Built responsive UI for KPI management system",
+        "SSTask: Developed task and project management features",
+        "SSOKR: Implemented OKR alignment tools for goal-setting",
+        "Built modules for surveys, KPIs, task tracking with PDF & Excel export",
+        "Designed dynamic document engine for contracts/invoices with e-signatures",
+        "Optimized UI/UX using React, Zustand, and Ant Design",
+      ],
+      techs: "React, Zustand, Ant Design, PDF/Excel Export, E-signatures",
+    },
+    {
+      title: "Sphinx Software",
+      logo: Logo.Sphinx,
+      timeline: "Sep 2017 - Jun 2019",
+      description: "Intern & Frontend Developer",
+      remark: `First professional experience gaining hands-on skills in OOP, React, PHP, and JavaScript.
+        Collaborated with international clients from Japan and Thailand.`,
+      activities: [
+        "Contributed to Kiroku.ai, Micro Money, and Photo-ac.com using ReactJS",
+        "Worked on features like surveys, loan lead generation, and stock photo transactions",
+        "Gained experience in OOP, React, PHP, jQuery, HTML, CSS, and JavaScript",
+        "Improved communication and project delivery skills with international clients",
+      ],
+      techs: "ReactJS, PHP, jQuery, HTML, CSS, JavaScript, OOP",
     },
   ],
-  "Side Works": [
+  "Projects": [
     {
-      title: "Fandom",
-      logo: Logo.Fandom,
-      timeline: "2016 - 2018",
-      description: `A company providing wiki hosting and domain service for users
-      and offering content created by users`,
-      remark: `Fandom (formerly Wikia) is the platform that I started as a volunteering helper during my time at college.
-        I was able to engage in my very first international environment,
-        where I could communicate with a lot of people from various countries.`,
-      activities: [
-        "Monitor $1's activities",
-        "Provide user support services",
-        "Content translations (blogs, help pages, articles)",
-        "Tools used: Slack, Jira, Crowdin, Google Docs",
-      ],
-      links: {
-        $1: [
-          "Vietnamese Community Central",
-          "https://community.fandom.com/vi/wiki/Trang_Ch%C3%ADnh",
-        ],
-      },
-    },
-    {
-      title: "Fandom Developers",
-      logo: Logo.FandomDev,
-      timeline: "2016 - present",
-      description: "A community of Fandom volunteering developers",
-      remark: `This is more or less my first code playground when I started to love front-end development.
-      As a part of this community, I could learn and collaborate with the others to improve my coding skill.
-      My favorite works: $2, $3.`,
-      activities: [
-        "Develop extensions on top of the $1 platform (the core of every Fandom wiki)",
-        "Cross-review, improve existing scripts",
-        "Tool used: Fandom's code editor",
-      ],
-      techs: "HTML, CSS, JS, jQuery, $4",
-      links: {
-        $1: ["MediaWiki", "https://www.mediawiki.org/wiki/MediaWiki"],
-        $2: ["ArticleRating", "https://dev.fandom.com/wiki/ArticleRating"],
-        $3: ["FloatingToc", "https://dev.fandom.com/wiki/FloatingToc"],
-        $4: [
-          "MediaWiki API",
-          "https://doc.wikimedia.org/mediawiki-core/master/js/#!/api/mw.Api",
-        ],
-      },
-    },
-    {
-      title: "Win7 Simu",
-      logo: Logo.Win7,
-      timeline: "2019 - present",
-      description: "A simulator of Windows 7 on mobile",
-      remark: `This is the biggest side project that I have started with a lot of time and effort invested.
-      At first, it was simply made for me to apply things I have learned, something I would have fun building,
-      but apparently it has some unforeseen potential, as it is surprisingly well-received
-      and gets a lot of positive feedback and encouragement to advance it futher.
-      Here is a link to its $1.`,
-      activities: [
-        "Simulate the functionalities and features of Windows 7 through web technologies",
-        "Integrate with Android's JS Interface, build and deploy to app store",
-        "Actively engage in user's experience and collect feedback",
-        "Tools used: Visual Studio Code, Android Studio, Crowdin",
-      ],
-      techs:
-        "HTML, Sass, JS, VueJS, Vuex, Vue-i18n, axios, Firebase, FabricJS, Java",
-      links: {
-        $1: [
-          "app page",
-          "https://play.google.com/store/apps/details?id=com.visnalize.win7simu",
-        ],
-      },
-    },
-    {
-      title: "Winport",
+      title: "LaunchPunks",
       logo: Icon("about"),
-      timeline: "2020",
-      description: "A window-styled, multi-theming portfolio",
-      remark: `What you are seeing right now is my first website portfolio.
-      The core design is inspired by Microsoft's Windows, with icons provided by $1.
-      Feel free to check out the source code I made publicly available on $2,
-      and do not hesitate to put a star if you like it.`,
-      techs: "HTML, Sass, JS, ReactJS, React Router",
+      timeline: "2024",
+      description: "BRC-20 Launchpad with gamified features",
+      remark: `Built an animated, high-performance UI with React/Next.js, Framer Motion & GSAP.
+        Integrated BRC-20 + TAP Protocol for token minting. Developed gamified features like leaderboards and marketplace.`,
+      techs: "React, Next.js, TypeScript, Framer Motion, GSAP, BRC-20, TAP Protocol",
+    },
+    {
+      title: "W Wallet",
+      logo: Icon("about"),
+      timeline: "2024",
+      description: "Telegram-based Crypto Wallet (40k+ users)",
+      remark: `Built a Telegram WebApp wallet with multi-chain (EVM + Solana) support,
+        seed phrase recovery, Face ID (WebAuthn), and real-time transfers.`,
+      techs: "React, TypeScript, Telegram API, WebAuthn, EVM, Solana",
+    },
+    {
+      title: "StableFlow",
+      logo: Icon("about"),
+      timeline: "2024",
+      description: "DeFi Platform for Stablecoin Operations",
+      remark: `Developed responsive interfaces for stablecoin swaps & staking.
+        Integrated wallet connect, real-time staking analytics, and optimized performance.`,
+      techs: "React, Next.js, Web3.js, WalletConnect, DeFi",
       links: {
-        $1: ["Freepik", "https://www.freepik.com/"],
-        $2: ["Github", "https://github.com/nguyenduyhoang35"],
+        $1: ["stableflow.org", "https://stableflow.org"],
       },
     },
     {
-      title: "Lucky Draw",
-      logo: "",
-      timeline: "2020",
-      description: "A web tool for organizing lucky drawing events",
-      remark: `A side project in collaboration with my colleague,
-      this tool was built to support a customer organizing his special event.`,
-      techs: "HTML, Bootstrap, ReactJS, React-i18n",
+      title: "DriftZone",
+      logo: Icon("about"),
+      timeline: "2023",
+      description: "Real-time Multiplayer Car Battle Game",
+      remark: `Implemented battle mechanics, leaderboard system, and engaging animation
+        with multi-language support.`,
+      techs: "React, WebSocket, Canvas, Animation",
+      links: {
+        $1: ["Play DriftZone", "https://play.driftzone.io"],
+      },
     },
     {
-      title: "Wikiu",
-      logo: "",
-      timeline: "2020",
-      description: "A utility collection for Fandom wikis",
-      remark: `Another side project in an attempt to apply what I have learned.
-      The idea is to build a collection of utilities from what the $1 could offer,
-      using a more advanced JS library to ease development and lift certain limitations of jQuery.
-      It is still an in-progress project, but feel free to check out the source code on $2.`,
-      techs: "HTML, CSS, JS, ReactJS, React Router, MediaWiki API",
+      title: "BetterCast",
+      logo: Icon("about"),
+      timeline: "2023",
+      description: "Event Management System",
+      remark: `Developed event setup flows with speaker bios, sponsor sections,
+        Slido integration using ReScript, React, and Stripe.`,
+      techs: "ReScript, React, Stripe, Slido Integration",
       links: {
-        $1: [
-          "MediaWiki API",
-          "https://doc.wikimedia.org/mediawiki-core/master/js/#!/api/mw.Api",
-        ],
-        $2: ["Github", "https://github.com/nguyenduyhoang35"],
+        $1: ["app.bettercast.io", "https://app.bettercast.io"],
       },
+    },
+    {
+      title: "Mina Protocol Tools",
+      logo: Icon("about"),
+      timeline: "2022 - 2023",
+      description: "Wallet Selector, MinaPortal, MetaMask Snap",
+      remark: `Developed UI and onboarding flows for interacting with Mina Network via Snap wallet.
+        Built multi-chain support and advanced authentication.`,
+      techs: "React, TypeScript, Mina Network, MetaMask Snap",
     },
   ],
 };

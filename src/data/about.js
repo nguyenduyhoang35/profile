@@ -1,24 +1,24 @@
 /* eslint-disable import/no-anonymous-default-export */
 export default {
-  headline: "A software developer, front-end enthusiast.",
-  intro: `I'm a full-time software developer who has a one-sided love for visual
-  and design. I enjoy developing visual-related stuffs, reading random
-  tech blogs and getting inspired by the awesomeness.`,
+  headline: "Senior Frontend Developer | Frontend Team Lead",
+  intro: `A passionate developer with 5+ years of experience in frontend and blockchain.
+  I'm driven by curiosity, product thinking, and the desire to build meaningful tech that solves real problems.
+  I continuously grow through hands-on projects, certifications, and by mentoring others.`,
   facts: [
-    "My full name is Hoang Nguyen Duy, but I prefer just $1.",
-    "I was born on a wonderful day in 1997.",
-    "I am a citizen of Vietnam, live in Thai Binh city.",
-    "One word to describe my personality: Introversion.",
-    "Two words to describe my capability: Good all-rounder.",
-    "Three words to describe my living goal: Family and friends.",
+    "My full name is Nguyen Duy Hoang, but I prefer just $1.",
+    "I am a citizen of Vietnam, live in Hanoi.",
+    "Currently working as Frontend Team Lead in an Agile/Scrum environment.",
+    "Fast learner with strong problem-solving and debugging skills.",
+    "Passionate about clean, maintainable, and scalable code.",
+    "Solid communication skills and a positive, proactive mindset.",
   ],
   trivias: [
-    "Foodball is my favorite sport.",
-    "I love winter, but only on screen. I can hardly handle the cold in actuality.",
-    "I love playing games especially League of Legends"
+    "I love learning new programming libraries.",
+    "Enjoy computer games, mobile games, and brain teasers.",
+    "Book reading, novels, and comic books are my hobbies."
   ],
   links: {
     $1: ["Hoang"],
-    $2: ["biggest knowledge base", "https://fireemblem.fandom.com/"],
+    $2: ["LinkedIn", "https://www.linkedin.com/in/hoang-nguyen-848b52206"],
   },
 };

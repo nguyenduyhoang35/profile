@@ -1,6 +1,6 @@
 const r = require.context("./assets");
 const assets = r.keys().map(r);
-export const Avatar = require("./assets/avt.jpg")
+export const Avatar = require("./assets/avt.jpg");
 
 export const Icon = (key, type = "flat") => {
   let _type = type.toLowerCase();
@@ -26,10 +26,11 @@ export const Social = {
 };
 
 export const Logo = {
-  Sskpi : require("./assets/sskpi-image.png"),
+  Sskpi: require("./assets/sskpi-image.png"),
   Logivan: require("./assets/logivan-image.png"),
   Sphinx: require("./assets/sphinx.png"),
   SoTaTek: require("./assets/SoTaTek.png"),
+  Fetch: require("./assets/fetch-logo.svg"),
   Fandom: require("./assets/logo-fandom.webp"),
   FandomDev: require("./assets/logo-fandom-dev.webp"),
   Win7: require("./assets/logo-win7.webp"),
